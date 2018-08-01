@@ -8,11 +8,11 @@ sudo apt-get install vlc
 
 #3. file zilla
 
-sudo apt-get install filezilla
+#sudo apt-get install filezilla
 
 #4. mpv
 
-sudo apt-get install mpv
+#sudo apt-get install mpv
 
 #5. sublime
 
@@ -30,7 +30,7 @@ sudo apt-get install mpv
 
     	#	echo "deb https://download.sublimetext.com/ apt/dev/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
 
-Update apt sources and install Sublime Text
+#Update apt sources and install Sublime Text
 sudo apt-get update
 sudo apt-get install sublime-text
 
@@ -147,6 +147,9 @@ sudo dpkg -i teamviewer_12.0.xxxxx_i386.deb
 	sudo apt-get install libxss1 libappindicator1 libindicator7
         wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
         sudo dpkg -i google-chrome*.deb
-
+#communitheme installation
+	sudo add-apt-repository ppa:communitheme/ppa
+        sudo apt update
+        sudo apt install ubuntu-communitheme-session
 
 
