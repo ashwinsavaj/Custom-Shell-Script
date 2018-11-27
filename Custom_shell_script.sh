@@ -154,3 +154,8 @@ sudo dpkg -i teamviewer_12.0.xxxxx_i386.deb
 
 #offline site download 
 	wget --mirror --convert-links --adjust-extension --page-requisites --no-parent http://www.geeksforgeeks.org/
+	
+	
+         #Administration-Directory-Lock
+	
+	sudo lsof /var/lib/dpkg/lock
